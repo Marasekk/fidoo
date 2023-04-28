@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "test:e2e": "playwright test e2e.test.js",
+        "test:api": "playwright test api.test.js",
+        "test": "npm run test:e2e && npm run test:api"
+    },
+    "dependencies": {
+        "supertest": "^6.3.3"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.15.2"
+    }
+}
